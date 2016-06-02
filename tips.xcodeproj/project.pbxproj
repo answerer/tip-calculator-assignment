@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F829A2C91CFFFE0100483205 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F829A2C81CFFFE0100483205 /* README.md */; };
-		F829A2CD1D0007DC00483205 /* walkthrough.gif in Resources */ = {isa = PBXBuildFile; fileRef = F829A2CC1D0007DC00483205 /* walkthrough.gif */; };
+		F829A2D01D0009D400483205 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F829A2CF1D0009D400483205 /* SettingsViewController.swift */; };
 		F8ECF91E1CFFDB9C007F69C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ECF91D1CFFDB9C007F69C2 /* AppDelegate.swift */; };
 		F8ECF9201CFFDB9C007F69C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ECF91F1CFFDB9C007F69C2 /* ViewController.swift */; };
 		F8ECF9231CFFDB9C007F69C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8ECF9211CFFDB9C007F69C2 /* Main.storyboard */; };
@@ -38,7 +38,8 @@
 
 /* Begin PBXFileReference section */
 		F829A2C81CFFFE0100483205 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F829A2CC1D0007DC00483205 /* walkthrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = walkthrough.gif; path = ../../../Documents/walkthrough.gif; sourceTree = "<group>"; };
+		F829A2CE1D0009A000483205 /* walkthrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = walkthrough.gif; sourceTree = "<group>"; };
+		F829A2CF1D0009D400483205 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F8ECF91A1CFFDB9C007F69C2 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8ECF91D1CFFDB9C007F69C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8ECF91F1CFFDB9C007F69C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,7 +84,7 @@
 		F8ECF9111CFFDB9C007F69C2 = {
 			isa = PBXGroup;
 			children = (
-				F829A2CC1D0007DC00483205 /* walkthrough.gif */,
+				F829A2CE1D0009A000483205 /* walkthrough.gif */,
 				F829A2C81CFFFE0100483205 /* README.md */,
 				F8ECF91C1CFFDB9C007F69C2 /* tips */,
 				F8ECF9311CFFDB9D007F69C2 /* tipsTests */,
@@ -106,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				F8ECF94D1CFFEA1F007F69C2 /* SettingsViewController.swift */,
+				F829A2CF1D0009D400483205 /* SettingsViewController.swift */,
 				F8ECF91D1CFFDB9C007F69C2 /* AppDelegate.swift */,
 				F8ECF91F1CFFDB9C007F69C2 /* ViewController.swift */,
 				F8ECF9211CFFDB9C007F69C2 /* Main.storyboard */,
@@ -242,7 +244,6 @@
 				F8ECF9281CFFDB9C007F69C2 /* LaunchScreen.storyboard in Resources */,
 				F8ECF9251CFFDB9C007F69C2 /* Assets.xcassets in Resources */,
 				F8ECF9231CFFDB9C007F69C2 /* Main.storyboard in Resources */,
-				F829A2CD1D0007DC00483205 /* walkthrough.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +271,7 @@
 				F8ECF9201CFFDB9C007F69C2 /* ViewController.swift in Sources */,
 				F8ECF91E1CFFDB9C007F69C2 /* AppDelegate.swift in Sources */,
 				F829A2C91CFFFE0100483205 /* README.md in Sources */,
+				F829A2D01D0009D400483205 /* SettingsViewController.swift in Sources */,
 				F8ECF94E1CFFEA1F007F69C2 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
