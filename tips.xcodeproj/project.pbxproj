@@ -14,6 +14,7 @@
 		F8ECF9281CFFDB9C007F69C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8ECF9261CFFDB9C007F69C2 /* LaunchScreen.storyboard */; };
 		F8ECF9331CFFDB9D007F69C2 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ECF9321CFFDB9D007F69C2 /* tipsTests.swift */; };
 		F8ECF93E1CFFDB9D007F69C2 /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ECF93D1CFFDB9D007F69C2 /* tipsUITests.swift */; };
+		F8ECF94E1CFFEA1F007F69C2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ECF94D1CFFEA1F007F69C2 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F8ECF9391CFFDB9D007F69C2 /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8ECF93D1CFFDB9D007F69C2 /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		F8ECF93F1CFFDB9D007F69C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8ECF94D1CFFEA1F007F69C2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		F8ECF91C1CFFDB9C007F69C2 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				F8ECF94D1CFFEA1F007F69C2 /* SettingsViewController.swift */,
 				F8ECF91D1CFFDB9C007F69C2 /* AppDelegate.swift */,
 				F8ECF91F1CFFDB9C007F69C2 /* ViewController.swift */,
 				F8ECF9211CFFDB9C007F69C2 /* Main.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					F8ECF9191CFFDB9C007F69C2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5J3P84TBP4;
 					};
 					F8ECF92D1CFFDB9D007F69C2 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -258,6 +262,7 @@
 			files = (
 				F8ECF9201CFFDB9C007F69C2 /* ViewController.swift in Sources */,
 				F8ECF91E1CFFDB9C007F69C2 /* AppDelegate.swift in Sources */,
+				F8ECF94E1CFFEA1F007F69C2 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.datnt.tips;
@@ -410,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.datnt.tips;
